@@ -1,0 +1,13 @@
+1. Jdk in path einfügen
+- Systemvariable\path: C:\Program Files\Java\jdk-11.0.1\bin.
+- Eclipse aktualisiert in Windos\Preferences\Installed JREs
+2. Project Abhängigkeit
+- Falls der Project 1 abhängig von Project 2 ist. Füge in Java Build Path\Projects den Project 2
+3. Setup encoding
+- In in Windos\Preferences\ gebe encoding, In Content Types füge Default Coding, z.B. UTF-8
+4. Setup Formatter
+- In in Windos\Preferences\code styles gebe format, dort kann man code formatiren.
+5. Füge zusätzlichen source folder in Project
+- Properties\Java Build Path\Source füge neue Folder
+6. Füge JUnit hinzu
+- Properties\Libraries\Add Library\Junit
