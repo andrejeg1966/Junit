@@ -15,6 +15,7 @@ public class JunitMathProvider_1 {
 	    int firstNumber = 11;
 	    int secondNumber = 20;
 		assertEquals(firstNumber + secondNumber, provider.Add(firstNumber, secondNumber));
+		System.out.println("Expected result " + provider.Add(firstNumber, secondNumber));
 		System.out.println("Ending test " + new Object(){}.getClass().getEnclosingMethod().getName());
 	}
 	
@@ -25,6 +26,7 @@ public class JunitMathProvider_1 {
 	    int firstNumber = 10;
 	    int secondNumber = 20;
 		assertEquals(firstNumber - secondNumber, provider.Substract(firstNumber, secondNumber));
+		System.out.println("Expected result " + provider.Substract(firstNumber, secondNumber));
 		System.out.println("Ending test " + new Object(){}.getClass().getEnclosingMethod().getName());
 	}
 

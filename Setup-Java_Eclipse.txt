@@ -1,13 +1,26 @@
-1. Jdk in path einfügen
-- Systemvariable\path: C:\Program Files\Java\jdk-11.0.1\bin.
-- Eclipse aktualisiert in Windos\Preferences\Installed JREs
+1. Add Jdk in path system variables
+- Systemvariable\path: C:\Program Files\Java\jdk-23\bin
+- JAVA_HOME = C:\Program Files\Java\jdk-23
+- JUNIT_HOME = C:\Junit
+- M2_HOME = C:\Program Files\apache-maven-3.9.9
+- MAVEN_HOME = C:\Program Files\apache-maven-3.9.9
+2. Maven Dependency
+- junit
+- hamcrest-core
 2. Project Abhängigkeit
-- Falls der Project 1 abhängig von Project 2 ist. Füge in Java Build Path\Projects den Project 2
+- Falls der Project 1 abhängig von Project 2 ist. Füge in Java Build Path\Projects den anderen Projekt
 3. Setup encoding
 - In in Windos\Preferences\ gebe encoding, In Content Types füge Default Coding, z.B. UTF-8
 4. Setup Formatter
-- In in Windos\Preferences\code styles gebe format, dort kann man code formatiren.
+- In in Windos\Preferences\Java\code styles gebe format, dort kann man code formatiren.
 5. Füge zusätzlichen source folder in Project
 - Properties\Java Build Path\Source füge neue Folder
 6. Füge JUnit hinzu
 - Properties\Libraries\Add Library\Junit
+
+****************JUnit implemented****************
+1. Procedure (Before and After Methods)
+2. Assertions
+3. Parametrized tests
+4. Test Suite
+5. Test Runner

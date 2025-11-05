@@ -1,18 +1,16 @@
 package employeeTest;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.Arrays;
 import java.util.Collection;
- 
-import org.junit.Test;
-import org.junit.Before;
 
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
 
 import employee.PrimeNumberChecker;
-
-import org.junit.runner.RunWith;
-import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
 public class PrimeNumberCheckerTest {
